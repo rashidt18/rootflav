@@ -698,7 +698,7 @@ h1, h2 { letter-spacing: -.025em; }
 
 .social-links {
   display: flex;
-  gap: 20px; /* <--- Increase this number for more space (e.g., 18px or 20px) */
+  gap: 18px; /* <--- Increase this number for more space (e.g., 18px or 20px) */
   margin-top: 16px;
   align-items: center;
 }
