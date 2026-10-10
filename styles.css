@@ -695,3 +695,27 @@ h1, h2 { letter-spacing: -.025em; }
   .search-results a span { font-size: 10px; }
   .cart-drawer { padding: 20px 18px; border-radius: 10px 0 0 10px; }
 }
+
+.social-links {
+  display: flex;
+  gap: 18px; /* <--- Increase this number for more space (e.g., 18px or 20px) */
+  margin-top: 16px;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: inherit;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.3);
+}
