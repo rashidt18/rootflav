@@ -2065,3 +2065,7 @@ h2 {
 .blog-card h2 a { color: var(--green-dark); }
 .seo-prose ul { padding-left: 22px; }
 .article-date { margin-top: 36px; color: var(--muted); }
+
+.buy-box { margin: 22px 0; padding: 20px 24px; background: var(--green-soft); border-left: 4px solid var(--terracotta); border-radius: 4px; }
+.buy-box p { margin: 0 0 8px; }
+.buy-box p:last-child { margin-bottom: 0; }
